@@ -1,0 +1,30 @@
+{
+  "name": "lh-counselling",
+  "version": "1.0.0",
+  "description": "Brochure website detailing counselling services provided by Leonie Holmes",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteHolmes/lh_counselling.git"
+  },
+  "keywords": [
+    "lh",
+    "leonie",
+    "holmes",
+    "counselling"
+  ],
+  "author": "Stephen Holmes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteHolmes/lh_counselling/issues"
+  },
+  "homepage": "https://github.com/SteHolmes/lh_counselling#readme"
+}
