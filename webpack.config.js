@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+/* const { CleanWebpackPlugin } = require("clean-webpack-plugin"); */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const autoprefixer = require("autoprefixer");
@@ -53,13 +53,13 @@ module.exports = {
               ]
             },
             {
-              test: /\.(png|jpg|gif|svg)$/i,
+              test: /\.(png|jpg|jfif|gif|svg)$/i,
               use: {
                 loader: 'file-loader',
                 options: {
                   name: '[path][name].[ext]',
                   context: 'src/images',
-                  outputPath: '/css/images'
+                  outputPath: '/images'
                 }
               }
             }
@@ -67,7 +67,7 @@ module.exports = {
     },
     plugins: [
 
-      new CleanWebpackPlugin(),
+      /* new CleanWebpackPlugin(), */
 
       new HtmlWebpackPlugin({
         title: 'Leonie Holmes Counselling',

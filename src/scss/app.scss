@@ -1,3 +1,107 @@
-.welcome-msg {
-    color: blue;
+// GLOBAL //
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    h1 {
+        line-height: 1em;
+        letter-spacing: -0.05em;
+        margin-block-end: 0.5em;
+    }
+    p {
+        line-height: 1em;
+        margin-block-start: 0;
+    }
+}
+
+// NAVBAR //
+nav {
+    position: relative;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+        margin: 0 20px 0 0;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 5px;
+
+        &:active {
+            background-color: #9fccd0;
+        }
+    }
+}
+
+// HERO-HEADER //
+.container {
+    width: 100%;
+    height: 100vh;
+    margin-top: -85px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    .title {
+        grid-column: 1/3;
+        grid-row: 2;
+        align-self: center;
+        font-size: 50px;
+        padding: 30px 12%;
+        color: #fff;
+
+        .heading {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            @media only screen and (min-width: 1024px) {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .profile {
+                display: none;
+
+                @media only screen and (min-width: 1685px) {
+                    display: block;
+                    width: 165px;
+                    height: 175px;
+                    margin-bottom: -20px;
+                    margin-right: 1rem;
+                    border: 1px solid #fff;
+                }
+            }
+        }
+
+        .sub-heading {
+            font-family: 'Bilbo Swash Caps', cursive;
+            padding: 10px 0;
+            border-top: 2px solid #D7E3CF;
+        }
+    }
+}
+
+.bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &--1 {
+        background-image: url("/images/beach_kite.jfif");
+    }
+
+    &--2 {
+        background-image: url("/images/branch.jfif");
+    }
+
+    &--3 {
+        background-image: url("/images/kite.jfif");
+    }
+
+    &--4 {
+        background-image: url("/images/branch.jfif");
+    }
 }
