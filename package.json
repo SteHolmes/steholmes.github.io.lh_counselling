@@ -4,6 +4,7 @@
   "description": "Brochure website detailing counselling services provided by Leonie Holmes",
   "main": "app.js",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "lodash": "^4.17.15"
   },
   "devDependencies": {
