@@ -1,0 +1,21 @@
+.hero-header {
+
+        .profile {
+            display: none;
+
+            @media only screen and (min-width: 1685px) {
+                display: block;
+                width: 165px;
+                height: 175px;
+                margin-bottom: -20px;
+                margin-right: 1rem;
+                border: 1px solid #fff;
+            }
+        }
+    }
+
+    .sub-heading {
+        font-family: 'Bilbo Swash Caps', cursive;
+        padding: 10px 0;
+    }
+}

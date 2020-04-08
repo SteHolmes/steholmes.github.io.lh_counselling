@@ -1,20 +1,13 @@
 @import "overrides.scss";
+@import "/global/text.scss";
+@import "/components/background-images.scss";
+
+// primary orange: #FF7101 //
 
 // GLOBAL //
 body {
-    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-
-    h1 {
-        line-height: 1em;
-        letter-spacing: -0.05em;
-        margin-block-end: 0.5em;
-    }
-    p {
-        line-height: 1em;
-        margin-block-start: 0;
-    }
 }
 
 // NAVBAR //
@@ -35,63 +28,5 @@ nav {
         &:active {
             background-color: #9fccd0;
         }
-    }
-}
-
-// HERO-HEADER //
-.hero-header {
-    font-size: 50px;
-    color: #fff;
-
-    .heading {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-
-        @media only screen and (min-width: 1024px) {
-            flex-direction: row;
-            align-items: center;
-        }
-
-        .profile {
-            display: none;
-
-            @media only screen and (min-width: 1685px) {
-                display: block;
-                width: 165px;
-                height: 175px;
-                margin-bottom: -20px;
-                margin-right: 1rem;
-                border: 1px solid #fff;
-            }
-        }
-    }
-
-    .sub-heading {
-        font-family: 'Bilbo Swash Caps', cursive;
-        padding: 10px 0;
-        border-top: 2px solid #D7E3CF;
-    }
-}
-
-.bg-image {
-    height:100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    &--1 {
-        background-image: url("/images/beach_kite.jfif");
-    }
-
-    &--2 {
-        background-image: url("/images/branch.jfif");
-    }
-
-    &--3 {
-        background-image: url("/images/kite.jfif");
-    }
-
-    &--4 {
-        background-image: url("/images/branch.jfif");
     }
 }
