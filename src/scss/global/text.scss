@@ -6,6 +6,10 @@ body {
         font-size: 18px;
     }
 
+    .text-small {
+        font-size: 0.85em;
+    }
+
     .text-large {
         font-size: 1.2rem;
 
@@ -15,9 +19,9 @@ body {
     }
 
     h1 {
-        font-size: 44px;
+        font-size: 40px;
         font-weight: 800;
-        line-height: 1em;
+        line-height: 0.8em;
         letter-spacing: -0.05em;
         margin-block-end: 0.5em;
 
@@ -25,8 +29,16 @@ body {
             font-size: 54px;
         }
 
-        @media only screen and (min-width: 1024px) {
-            font-size: 77px;
+        @include media-breakpoint-up(md) {
+            font-size: 74px;
+        }
+
+        @include media-breakpoint-up(lg) {
+            font-size: 82px;
+        }
+
+        @include media-breakpoint-up(xl) {
+            font-size: 96px;
         }
     }
 
