@@ -1,6 +1,8 @@
 import 'lodash';
 import './scss/app.scss';
 
+import './scripts/navigation.js';
+
 import sandDune from './images/sand_dune.jfif';
 import branch from './images/branch.jfif';
 import kite from './images/kite.jfif';
