@@ -38,7 +38,7 @@ body {
         }
 
         @include media-breakpoint-up(xl) {
-            font-size: 96px;
+            font-size: 100px;
         }
     }
 
@@ -91,4 +91,37 @@ body {
         line-height: 1.25em;
         margin-block-start: 0;
     }
+
+    ul:not(.navbar-nav) {
+        list-style-type: none;
+        padding-inline-start: 1rem;
+
+        li {
+            margin-bottom: 1rem;
+        }
+
+        li:before {
+            content: '-';
+            font-weight: bold;
+            position: absolute;
+            margin-left: -15px;
+        }
+    }
+
+    .light-list {
+        li:before {
+            color: $primary;
+        }
+    }
+    
+    .dark-list {
+        li:before {
+            color: #619599; 
+        }
+    }  
+}
+
+.logo-text {
+    margin-left: 0.04rem;
+    margin-top: -1.3rem;
 }
