@@ -92,7 +92,7 @@ body {
         margin-block-start: 0;
     }
 
-    ul:not(.navbar-nav) {
+    .custom-list {
         list-style-type: none;
         padding-inline-start: 1rem;
 
@@ -106,22 +106,23 @@ body {
             position: absolute;
             margin-left: -15px;
         }
-    }
 
-    .light-list {
-        li:before {
-            color: $primary;
+        &--light {
+            li:before {
+                color: $primary;
+            }
         }
-    }
-    
-    .dark-list {
-        li:before {
-            color: #619599; 
-        }
-    }  
+
+        &--dark {
+            li:before {
+                color: #619599;
+            }
+        }     
+    } 
 }
 
 .logo-text {
+    width: auto;
     margin-left: 0.04rem;
     margin-top: -1.3rem;
 }

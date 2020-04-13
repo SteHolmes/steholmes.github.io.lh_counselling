@@ -2,7 +2,7 @@ footer {
     background-color: #686767;
 }
 
-*:focus {
+*:focus:not(.navbar-toggler) {
     outline: none !important;
     border: none !important;
 }

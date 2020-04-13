@@ -1,3 +1,10 @@
+.card-text {
+    font-size: 1.125rem;
+    
+    @include media-breakpoint-up(xl) {
+            font-size: 1.4rem;
+        }
+}
 .card-img {
     max-width: 100%;
     max-height: 370px;
