@@ -1,0 +1,25 @@
+.fade-in-fast {
+    animation: fadeInFast ease-in 1.5s forwards;
+  }
+
+  @keyframes fadeInFast {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  .fade-in-slow {
+    animation: fadeInSlow ease-in 2s forwards;
+  }
+
+  @keyframes fadeInSlow {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
