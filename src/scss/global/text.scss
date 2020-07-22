@@ -18,7 +18,12 @@ body {
         }
     }
 
+    .text-secondary-dark {
+      color: $secondary-dark;
+    }
+
     h1 {
+      font-family: 'Ovo', serif;
         font-size: 40px;
         font-weight: 800;
         line-height: 0.8em;
@@ -26,39 +31,31 @@ body {
         margin-block-end: 0.5em;
 
         @media only screen and (min-width: 400px) {
-            font-size: 54px;
+            font-size: 42px;
         }
 
         @include media-breakpoint-up(md) {
-            font-size: 74px;
+            font-size: 48px;
         }
 
         @include media-breakpoint-up(lg) {
-            font-size: 82px;
+            font-size: 54px;
         }
 
         @include media-breakpoint-up(xl) {
-            font-size: 100px;
-        }
-    }
-
-    h2 {
-        font-size: 44px;
-
-        @media only screen and (min-width: 600px) {
             font-size: 64px;
         }
     }
 
-    h3 {
-        font-size: 31px;
+    h2 {
+        font-size: 37px;
 
         @media only screen and (min-width: 600px) {
-            font-size: 37px;
+            font-size: 44px;
         }
     }
 
-    h4 {
+    h3 {
         font-size: 25px;
 
         @media only screen and (min-width: 600px) {
@@ -66,7 +63,7 @@ body {
         }
     }
 
-    h5 {
+    h4 {
         font-size: 22px;
 
         @media only screen and (min-width: 600px) {
@@ -74,11 +71,19 @@ body {
         }
     }
 
-    h6 {
+    h5 {
         font-size: 18px;
 
         @media only screen and (min-width: 600px) {
             font-size: 22px;
+        }
+    }
+
+    h6 {
+        font-size: 16px;
+
+        @media only screen and (min-width: 600px) {
+            font-size: 18px;
         }
     }
 
@@ -90,6 +95,10 @@ body {
     p {
         line-height: 1.25em;
         margin-block-start: 0;
+    }
+
+    .ul {
+      padding-inline-start: 1.25rem;
     }
 
     .custom-list {
@@ -115,7 +124,7 @@ body {
 
         &--dark {
             li:before {
-                color: #619599;
+                color: $secondary-dark;
             }
         }     
     } 

@@ -9,3 +9,4 @@ import lighthouse from './images/lighthouse.jfif';
 import beachKite from './images/beach_kite.jfif';
 import footprints from './images/footprints.jfif';
 import profile from './images/profile.jpg';
+import leaves from './images/autumn_leaves.jpg';
