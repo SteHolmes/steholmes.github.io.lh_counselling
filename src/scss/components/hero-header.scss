@@ -1,21 +1,31 @@
 .hero-header {
 
-        .profile {
-            display: none;
+    &__bg-image {
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-image: url("https://images.unsplash.com/photo-1547280528-5f9e9bfdef9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.125;
+    }
 
-            @media only screen and (min-width: 1685px) {
-                display: block;
-                width: 165px;
-                height: 175px;
-                margin-bottom: -20px;
-                margin-right: 1rem;
-                border: 1px solid #fff;
-            }
+    /*.profile {
+        display: none;
+
+        @media only screen and (min-width: 1685px) {
+            display: block;
+            width: 165px;
+            height: 175px;
+            margin-bottom: -20px;
+            margin-right: 1rem;
+            border: 1px solid #fff;
         }
     }
 
     .sub-heading {
         font-family: 'Bilbo Swash Caps', cursive;
         padding: 10px 0;
-    }
+    }*/
 }

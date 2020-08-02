@@ -6,6 +6,11 @@
     background-color: rgba(255, 255, 255, 0.6);
 }
 
+.bg-opaque-gradient {
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,0.6) 60%, rgba(255,255,255,0.4) 100%);
+}
+
 .bg-gradient-center--grey {
   background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #D4D3CE 50%, rgba(255,255,255,0.001) 100%);
 }
