@@ -36,6 +36,14 @@ body {
         @include media-breakpoint-up(md) {
             font-size: 48px;
         }
+
+        @include media-breakpoint-up(lg) {
+          font-size: 48px;
+        }
+
+        @include media-breakpoint-up(xl) {
+          font-size: 48px;
+        }
     }
 
     h2 {
