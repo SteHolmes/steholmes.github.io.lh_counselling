@@ -1,0 +1,18 @@
+.hero-contact-button {
+  display: none;
+
+  @include media-breakpoint-up(xs) {
+    display: inline-block;
+  }
+}
+
+#scrollBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: -20px;
+  z-index: 99;
+  background-color: $secondary-light;
+  color: $white;
+  padding-right: 40px;
+}

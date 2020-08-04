@@ -1,3 +1,11 @@
+.table {
+  width: 100%;
+  
+  @include media-breakpoint-up(sm) {
+    width: 485px;
+  }
+}
+
 footer {
     background-color: #e5e5e5;
 }

@@ -1,10 +1,20 @@
 $primary: #FF7101;
 $secondary: #9FCCD0;
 $secondary-dark: #367f84;
+$secondary-light: #a8d7db;
 $navbar-dark-color: #fff;
 $navbar-dark-active-color: #fff;
 $border-light: #e5e5e5;
 $enable-responsive-font-sizes: true;
+
+$grid-breakpoints: (
+  xxs: 0,
+  xs: 375px,
+  sm: 544px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
 
 $spacer: 1rem !default;
 $spacers: () !default;
