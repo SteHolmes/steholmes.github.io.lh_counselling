@@ -1,15 +1,7 @@
-.contact-button {
-  display: none;
-
-  @include media-breakpoint-up(xs) {
-    display: inline-block;
-  }
-}
-
 .more-button {
   display: none;
 
-  @include media-breakpoint-up(xs) {
+  @include media-breakpoint-up(md) {
     display: inline-block;
   }
 }
